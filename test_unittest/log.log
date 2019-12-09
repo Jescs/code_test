@@ -1,0 +1,5 @@
+2019-11-25 14:46:53,723 logger DEBUG This is debug message,这是debug信息 
+2019-11-25 14:46:53,723 logger INFO This is info message，这是info信息 
+2019-11-25 14:46:53,723 logger WARNING This is warning message,这是warning信息 
+2019-11-25 14:46:53,723 logger ERROR This is error message 
+2019-11-25 14:46:53,723 logger CRITICAL This is critical message 

@@ -1,0 +1,49 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1575856485813" stop="1575856486053">
+  <name>test_unittest.test_02</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1575856485813" status="failed" stop="1575856486010">
+      <name>Requests_login.test_login_pass</name>
+      <failure>
+        <message>AssertionError: '用户名或密码错误' != 'success'
+- 用户名或密码错误
++ success
+ : login error</message>
+        <stack-trace>self = &lt;test_unittest.test_02.Requests_login testMethod=test_login_pass&gt;
+
+    def test_login_pass(self):
+        self.data = {"name": "admin", "password": "1234567"}
+        self.r = requests.post(self.url, self.data)
+        s = self.r.json()
+&gt;       self.assertEqual(s['message'], 'success',msg='login error')
+E       AssertionError: '用户名或密码错误' != 'success'
+E       - 用户名或密码错误
+E       + success
+E        : login error
+
+test_unittest\test_02.py:26: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1976-MainThread"/>
+        <label name="host" value="k-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1575856486011" status="passed" stop="1575856486053">
+      <name>Requests_login.test_login_wrong</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1976-MainThread"/>
+        <label name="host" value="k-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

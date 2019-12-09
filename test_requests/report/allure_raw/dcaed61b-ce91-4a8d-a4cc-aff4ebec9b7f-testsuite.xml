@@ -1,0 +1,54 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1575873574346" stop="1575873574355">
+  <name>test_requests.test_allure_demo</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1575873574346" status="passed" stop="1575873574349">
+      <description>用例描述：先登录，再去执行xxx</description>
+      <name>TestEditPage.test_1</name>
+      <attachments>
+        <attachment source="52bd8d5b-eece-4ef3-88a4-da0b61477910-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="00ff10b7-cc22-44cd-af69-bc5a82d497d3-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="这是一个xxx的用例"/>
+        <label name="feature" value="编辑页面"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14088-MainThread"/>
+        <label name="host" value="k-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1575873574348" status="passed" stop="1575873574348">
+          <name>步骤1:点xxx</name>
+          <title>步骤1:点xxx</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1575873574348" status="passed" stop="1575873574348">
+          <name>步骤2:点xxx</name>
+          <title>步骤2:点xxx</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1575873574353" status="passed" stop="1575873574355">
+      <description>用例描述：先登录，再去执行yyy</description>
+      <name>TestEditPage.test_2</name>
+      <attachments>
+        <attachment source="c57ad13f-033c-4797-8bc5-946d9603ccbb-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="打开a页面"/>
+        <label name="feature" value="编辑页面"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14088-MainThread"/>
+        <label name="host" value="k-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
